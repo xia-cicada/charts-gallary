@@ -1,6 +1,7 @@
 /* @refresh reload */
 import { render } from 'solid-js/web'
 import './styles/index.css'
+import '/node_modules/flag-icons/css/flag-icons.min.css'
 import App from './App.tsx'
 import { Router, Route } from '@solidjs/router'
 import { For, lazy, type Component } from 'solid-js'

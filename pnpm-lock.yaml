@@ -26,6 +26,9 @@ importers:
       es-toolkit:
         specifier: ^1.38.0
         version: 1.38.0
+      flag-icons:
+        specifier: ^7.3.2
+        version: 7.3.2
       idb-keyval:
         specifier: ^6.2.2
         version: 6.2.2
@@ -743,6 +746,9 @@ packages:
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
+
+  flag-icons@7.3.2:
+    resolution: {integrity: sha512-QkaZ6Zvai8LIjx+UNAHUJ5Dhz9OLZpBDwCRWxF6YErxIcR16jTkIFm3bFu54EkvKQy4+wicW+Gm7/0631wVQyQ==}
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1661,6 +1667,8 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
     optional: true
+
+  flag-icons@7.3.2: {}
 
   fsevents@2.3.3:
     optional: true

@@ -4,7 +4,6 @@ import { usePrompt } from '~/composables/usePrompt'
 import { echarts } from '~/libs/echarts'
 import { storageService, type StoredChartData } from './storage'
 import { showNotification } from '~/utils'
-import type { BladeApi } from 'tweakpane'
 
 interface Node {
   id: string
